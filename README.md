@@ -42,10 +42,4 @@ Sou movido pela curiosidade e pela vontade de criar impacto através da programa
 
 ---
 
-## 📈 Estatísticas do GitHub
-
-![Isaque's GitHub Stats](https://github-readme-stats.vercel.app/api?username=**SEU-USUARIO-GITHUB**&show_icons=true&theme=radical)
-
----
-
 🚀 Em constante evolução e sempre pronto para novos desafios. Vamos construir algo incrível juntos!
