@@ -1,45 +1,65 @@
+# 🧠 Tabela Verdade: Fundamentos da Lógica Booleana
 
-# 👋 Olá, eu sou o Isaque Almeida Torres
-
-💻 Desenvolvedor em formação com paixão por tecnologia, aprendizado constante e construção de soluções eficientes.
-
-Sou movido pela curiosidade e pela vontade de criar impacto através da programação. Tenho me dedicado a aprender e aplicar boas práticas no desenvolvimento de software, tanto no back-end quanto no front-end.
-
-📫 Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/isaque-almeida-torres-dev/)
+A **tabela verdade** é uma ferramenta fundamental na lógica matemática e na computação, usada para descrever o comportamento lógico de expressões booleanas. Ela mostra todas as possíveis combinações de valores de entrada e os respectivos resultados.
 
 ---
 
-## 🚀 Sobre Mim
+## 📌 O que é Lógica Booleana?
 
-- 🎓 Atualmente aprimorando minhas habilidades em desenvolvimento de software  
-- 🌱 Estudando novas tecnologias e práticas de desenvolvimento  
-- 💼 Aberto a oportunidades que me permitam crescer profissionalmente  
+A **lógica booleana** trabalha com dois valores: `Verdadeiro (V)` e `Falso (F)` — ou `1` e `0` em termos binários. Esses valores são usados em expressões lógicas que modelam decisões, condições e circuitos digitais.
 
 ---
 
-## 👨🏾‍💻📚 Habilidades / Estudos
+## 🧾 Operadores Lógicos
 
-### 🔙 Back-end
-- C  
-- Python  
-- Java  
-- Spring (Primavera)
-
-### 🎨 Front-end
-- JavaScript  
-- HTML5  
-- CSS3
-
-### 🗄️ Bancos de Dados
-- MongoDB  
-- Microsoft SQL Server  
-- MySQL
-
-### ⚙️ Ferramentas e Outras Tecnologias
-- Visual Studio Code  
-- Git & GitHub  
-- Power BI *(com foco em análise de dados e redução de custos)*
+| Operador | Símbolo | Nome                  | Descrição                                                       |
+|----------|---------|-----------------------|-----------------------------------------------------------------|
+| AND      | ∧       | Conjunção             | Verdadeiro se **ambos** os operandos forem verdadeiros          |
+| OR       | ∨       | Disjunção             | Verdadeiro se **pelo menos um** dos operandos for verdadeiro    |
+| NOT      | ¬       | Negação               | Inverte o valor lógico                                           |
+| XOR      | ⊕       | Disjunção exclusiva   | Verdadeiro se **apenas um** dos operandos for verdadeiro        |
 
 ---
 
-🚀 Em constante evolução e sempre pronto para novos desafios. Vamos construir algo incrível juntos!
+## 📊 Exemplos de Tabelas Verdade
+
+### 🔹 Operador AND (∧)
+
+| A | B | A ∧ B |
+|---|---|--------|
+| V | V | V      |
+| V | F | F      |
+| F | V | F      |
+| F | F | F      |
+
+### 🔹 Operador OR (∨)
+
+| A | B | A ∨ B |
+|---|---|--------|
+| V | V | V      |
+| V | F | V      |
+| F | V | V      |
+| F | F | F      |
+
+### 🔹 Operador NOT (¬)
+
+| A | ¬A |
+|---|----|
+| V | F  |
+| F | V  |
+
+---
+
+## 💡 Por que isso é importante?
+
+- **Desenvolvimento de Software**: Condições `if/else` e expressões booleanas.
+- **Engenharia Elétrica**: Design de circuitos digitais e portas lógicas.
+- **Ciência da Computação**: Base da álgebra booleana, inteligência artificial, bancos de dados, etc.
+
+---
+
+## 🧠 Curiosidade
+
+A tabela verdade foi formalizada por **Ludwig Wittgenstein** e **Emil Post**, mas as bases da lógica booleana vêm do matemático **George Boole**, no século XIX.
+
+---
